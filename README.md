@@ -1,27 +1,58 @@
-# NgStandaloneDemo
+# NgStandaloneDemo(Angular 16 獨立元件示範)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+練習如何在 Angular 16 中，使用獨立元件(standalone)，包含創建獨立元件、匯入獨立元件、使用服務(services)、路由及延遲載入。
 
-## Development server
+[[筆記]認識 Angular 16 獨立元件(standalone)](https://www.notion.so/c8b2b191308c4366884fa11ed8bdd3d8?v=def13057f38d4d6db45183810adef291&p=cf51ab25d04d4563b5e91e009c084fd9&pm=s)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 安裝
 
-## Build
+以下將會引導你如何安裝此專案到你的電腦上。
+* Angular 16.0.x 版本
+* Node.js ^16.14.0 || ^18.10.0 版本
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 取得專案
+```
+git clone git@github.com:ellaYang1227/ng16-standalone-demo.git
+```
 
-## Running unit tests
+### 移動到專案內
+```
+cd ng16-standalone-demo
+```
+### 安裝套件
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 運行專案
+```
+ng serve
+```
 
-## Running end-to-end tests
+### 瀏覽器開啟專案
+```
+http://localhost:4200/
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 環境變數說明
+```
+// 開發或正式
+production=
+// API 路徑
+api=
+```
 
-## Further help
+## 資料夾說明
+* components - 放置**元件**
+* routes - 放置**路由**
+* services - 放置**服務**
+* assets - 放置**靜態資源**
+* environments - 放置**環境變數**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 專案技術
+* @angular/cli 16.1.4
+* Node.js 18.12.1
+* Rxjs 7.8.0
+* Typescript 5.1.3

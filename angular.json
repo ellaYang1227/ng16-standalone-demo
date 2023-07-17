@@ -43,6 +43,12 @@
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.development.ts",
+                  "with": "src/environments/environment.ts"
+                }
+              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -63,7 +69,13 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -107,5 +119,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ca9e9618-b648-449f-bb72-1d4c44a825d1"
   }
 }

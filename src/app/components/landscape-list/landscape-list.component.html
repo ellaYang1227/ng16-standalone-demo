@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let landscape of landscapes$ | async"><a [routerLink]="landscape.id">{{ landscape.name }}</a></li>
+</ul>

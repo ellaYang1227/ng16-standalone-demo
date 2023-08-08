@@ -2,7 +2,7 @@
 
 練習如何在 Angular 16 中，使用獨立元件(standalone)，包含創建獨立元件、匯入獨立元件、使用服務(services)、路由及延遲載入。
 
-[[筆記]認識 Angular 16 獨立元件(standalone)](https://www.notion.so/c8b2b191308c4366884fa11ed8bdd3d8?v=def13057f38d4d6db45183810adef291&p=cf51ab25d04d4563b5e91e009c084fd9&pm=s)
+[[筆記]認識 Angular 16 獨立元件(standalone)](https://perfect-submarine-445.notion.site/Angular-16-standalone-cf51ab25d04d4563b5e91e009c084fd9)
 
 
 
